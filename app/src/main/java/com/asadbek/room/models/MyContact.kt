@@ -15,7 +15,17 @@ class MyContact {
       O`garuvchi tipini klass ga tenglab bo`lmaydi xatolik chiqarib beradi va bir jadval butun boshli klass malumotlarini qo`sha olmaydi
 
      */
-   // @ColumnInfo("id")
+   // @ColumnInfo("id") bu xolatda togridan togri yaratib ketishimiz xam mumkin
+
+    /*
+    @Entity
+    data class User(
+        @PrimaryKey val uid: Int,
+        @ColumnInfo(name = "first_name") val firstName: String?,
+        @ColumnInfo(name = "last_name") val lastName: String?
+    )
+     */
+
     @PrimaryKey(autoGenerate = true) // avtomatik id lar oshib boradi
     var id:Int? = null
 
