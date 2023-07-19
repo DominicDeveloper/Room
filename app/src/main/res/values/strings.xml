@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="enter_something_here">Enter something here</string>
+    <string name="entering_data">entering data</string>
+    <string name="number">Number</string>
+    <string name="name">Name</string>
+</resources>
